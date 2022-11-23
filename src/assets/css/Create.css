@@ -1,0 +1,90 @@
+#createForm {
+    padding: 1rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 540px;
+}
+
+.add-title {
+    margin: 1rem 0;
+}
+
+.input-area {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-area label {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.input-area input[type="text"], select {
+    padding: 1rem;
+    font-size: 1.4rem;
+    outline: none;
+    border: 0;
+    border-radius: 16px;
+    background: rgb(248, 245, 245);
+}
+
+.input-area input[type="text"]:focus {
+    border-bottom: 2px solid skyblue;
+}
+
+.input-area select {
+    font-size: 1.2rem;
+}
+
+.input-area select option {
+    padding: 2px 6px;
+}
+
+.submit-btn {
+    margin: 1rem 0;
+    width: 100%;
+    padding: 1.4rem 1.6rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    outline: none;
+    border: 0;
+    background: #496b9d;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: rgba(1, 60, 136, .5) 0 -1px 3px 0 inset, rgba(0, 44, 97, .1) 0 3px 6px 0;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.submit-btn:hover {
+    background-color: #2377eb;
+    transform: translateY(-2px);
+}
+
+.day-container {
+    padding: 1rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 540px;
+}
+
+.day-container p {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 12px;
+    color: #fff;
+    width: 100%;
+    margin: 1rem;
+    background: skyblue;
+}

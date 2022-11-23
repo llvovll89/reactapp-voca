@@ -1,0 +1,21 @@
+.loading-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+
+.loading-container h1 {
+    font-size: 3rem;
+}
+
+.loading-container .loading {
+    position: relative;
+}
+
+.loading-container .loading::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateZ(120deg);
+}

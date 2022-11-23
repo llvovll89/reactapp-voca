@@ -1,0 +1,46 @@
+.day-list {
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+}
+
+.day-list .day {
+    margin: 12px;
+    padding: 12px 20px;
+    border: 1px solid rgb(56, 171, 213);
+    border-radius: 6px;
+    background: skyblue;
+    cursor: pointer;
+}
+
+.day-list a {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.day-list .day .day-item {
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 862px) {
+    .day-list {
+        grid-template-columns: repeat(6 , 1fr);
+    }
+    .day {
+        margin: 8px;
+        padding: 6px 10px;;
+    }
+}
+
+@media (max-width: 564px) {
+    .day-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .day-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
