@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactapp-voca/static/css/main.6de6dfb0.css",
+    "main.js": "/reactapp-voca/static/js/main.39e65b3f.js",
+    "index.html": "/reactapp-voca/index.html",
+    "main.6de6dfb0.css.map": "/reactapp-voca/static/css/main.6de6dfb0.css.map",
+    "main.39e65b3f.js.map": "/reactapp-voca/static/js/main.39e65b3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6de6dfb0.css",
+    "static/js/main.39e65b3f.js"
+  ]
+}
