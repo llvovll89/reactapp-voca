@@ -10,7 +10,7 @@ import { CreateDay } from './pages/CreateDay';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header />
         <Routes>
           <Route exact path="/" element={<Daylist />} />
